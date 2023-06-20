@@ -13,14 +13,12 @@ const ProfComponent = () => {
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Anas</h1>
+          <h3>Junior Software Developer, Digital Marketing.</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+            Nama saya nasruloh dan biasa di panggil teman saya yaitu "anas".
           </p>
-          <button>Let's talk</button>
+          <button> <a href="#footer"> Let's talk</a></button>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
@@ -46,7 +44,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src={require('./img/avatar2.png')}
             alt="profile"
           />
         </Profile>
