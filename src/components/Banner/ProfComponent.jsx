@@ -22,6 +22,11 @@ const ProfComponent = () => {
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
+             <span>
+                <a href="/">
+                  <FaLinkedinIn />
+                </a>
+              </span>
               <span>
                 <a href="/">
                   <AiOutlineInstagram />
@@ -30,11 +35,6 @@ const ProfComponent = () => {
               <span>
                 <a href="/">
                   <GiEarthAmerica />
-                </a>
-              </span>
-              <span>
-                <a href="/">
-                  <FaLinkedinIn />
                 </a>
               </span>
             </div>
