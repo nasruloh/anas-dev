@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "./img/anas.jpg",
+        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
         disc : "#"
     },
     {
